@@ -78,6 +78,7 @@
             max-width: 1250px; width: 100%; padding: 2rem; padding-bottom: 150px;
             display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; z-index: 1; position: relative;
         }
+        .left-col, .right-col { min-width: 0; }
         .system-pill {
             font-family: 'Outfit', sans-serif; font-size: 0.7rem; color: var(--accent-orange);
             background: transparent; padding: 0.4rem 0.8rem; border-radius: 4px;
@@ -384,7 +385,7 @@
         @media (max-width: 1100px) {
             .home-container { grid-template-columns: 1fr; gap: 4rem; padding-bottom: 200px; }
             .hero-title { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -2px; font-size: 3.8rem; }
-            .ide-window { width: 100%; min-width: unset; overflow-x: auto; }
+            .ide-window { width: 100%; min-width: 0; overflow-x: auto; }
             .skills-3d-wrapper { bottom: 2%; }
             .action-area { flex-direction: column; height: auto; }
             .nav-sidebar { right: 15px; }
@@ -411,7 +412,7 @@
             .section-title-large { font-size: 2.5rem; }
             .section-title { font-size: 1.8rem; }
             .terminal-header-exp { font-size: 1.5rem; }
-            .hero-title { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -2px; font-size: 2.8rem; }
+            .hero-title { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -2px; font-size: 2.8rem; word-wrap: break-word; overflow-wrap: break-word; }
             .skills-header { padding: 1.5rem 2rem; }
             .skills-main { padding: 0 2rem; }
             .tech-stack-box { margin-left: 0; width: 100%; }
@@ -423,7 +424,7 @@
             .about-stats-container { grid-template-columns: 1fr; }
             .info-row { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
             .info-value { text-align: left; }
-            .hero-title { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -2px; font-size: 2.2rem; }
+            .hero-title { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -2px; font-size: 1.8rem; word-wrap: break-word; overflow-wrap: break-word; }
             .bio-section { font-size: 1rem; }
             .proj-section-title { font-family: 'Outfit', sans-serif; letter-spacing: -1px; text-transform: uppercase; font-weight: 800; font-size: 2rem; }
             .ct-page-header h1 { font-size: 22px; }
