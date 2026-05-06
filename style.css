@@ -397,6 +397,7 @@
             .skills-panel { max-width: 100%; }
             .center-stage { position: relative; top: auto; left: auto; transform: none; margin: 3rem 0; }
             #network-sphere { max-width: 450px; }
+            .nav-sidebar { display: none; }
         }
         @media (max-width: 768px) {
             .exp-timeline::before { left: 20px; }
